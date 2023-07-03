@@ -1,0 +1,39 @@
+.dark .card {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(44, 44, 44);
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .dark {
+    background-color: black;
+    color: #ffffff;
+  }
+
+  #toggleButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 25px;
+    padding: 10px 8px 8px 8px;
+    text-align: center;
+  }
+
+  .card {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 12px;
+    padding: 10px;
+  }
+
+  #dadosSalvos{
+    display: flex;
+    flex-wrap: wrap;
+  }

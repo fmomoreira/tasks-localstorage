@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dados no localStorage</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1>Armazenando dados no localStorage</h1>
+
+    <label for="titulo">Titulo:</label>
+    <input type="text" id="titulo" />
+    <br />
+    <label for="descricao">Descricao:</label>
+    <input type="text" id="descricao" />
+    <br />
+    <button onclick="salvarDados()">Salvar</button>
+
+    <butron id="toggleButton" onclick="alternarModo()">Modo Noite</butron>
+
+    <h2>Dados Armazenados:</h2>
+    <div id="dadosSalvos"></div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
